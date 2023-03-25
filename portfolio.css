@@ -1,0 +1,172 @@
+html, body {
+    font-family: cursive !important;
+    background: rgb(255,255,255);
+    background: linear-gradient(156deg, rgba(255,255,255,1) 25%, rgba(237,209,213,1) 80%);
+}
+#neubar {
+    background: #f7e5cc ;
+    box-shadow: 4px 6px 12px rgba(255, 141, 141, 0.4);
+    width: 100%;
+  }
+  
+  .nav-item .active {
+    border-radius: 6px;
+    background: linear-gradient(145deg, #977a7a, #ee7171bd);
+    box-shadow:  4px 4px 8px #e09f9f,
+                 -4px -4px 8px #fce2bd;
+  }
+  #neubar .dropdown-menu a:hover {
+    color: #d88181
+  }
+  #neubar .nav-item {
+    margin : auto 4px;
+  }
+  #neubar a {
+  
+    padding-left:12px;
+    padding-right:12px;
+  }
+  #neubar .dropdown-menu {
+    background : #ce9999
+  }
+  a.navbar-brand {
+    color: #beaaaa
+  }
+  .main{
+    padding: 25px;
+  }
+  .container-inf{
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 30px;
+    display: flex;
+    margin-top: 40px;
+    background-color: #f7e5cc;
+    box-shadow: rgba(247, 129, 129, 0.25) 0px 14px 28px, rgba(238, 130, 130, 0.22) 0px 10px 10px;
+    margin-bottom: 40px;
+  }
+  .contact-bar{
+    display: flex;
+  }
+  .contact{
+    margin: 20px;
+  }
+ .personal-img{
+    display: flex;
+    margin-right: 30px;  
+  }
+  .personal-img img {
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid rgb(248, 188, 188);
+    margin-top:-30px;
+    margin-right:10px;
+  }
+  .image-name-container{
+    margin-top: 10px;
+  }
+.about-me-container {
+    position: relative;
+    width: 100%;
+    border-radius: 50px ;
+  }
+  .about-me-img {
+    display: block;
+    width: 100%;
+    height: 1000px;
+    border: 10px solid rgb(243, 201, 201); 
+    border-radius: 50px ;
+  }
+  
+  .about-me-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .20s ease;
+    background-color: #f7e5cc;
+    border-radius: 50px ;
+  }
+  
+  .about-me-container:hover .about-me-text {
+    opacity: 1;
+  }
+  
+  .text {
+    color: rgb(17, 16, 16);
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.education-interships-container{
+display: grid;
+grid-template-columns: auto auto;
+
+font-weight: 600;
+gap: 10px;
+margin-top: 40px;
+}
+.education-container{
+ background-color: #f7e5cc;
+    width: 100%;
+text-align: center;
+margin-top: 40px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+border-radius: 50px ;
+}
+.education-container div {
+    padding: 10px;
+}
+.interships-container{
+    background-color: #f7e5cc;
+    width: 100%; 
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 50px ;
+}
+.interships-container div {
+    padding: 6px;
+}
+.projects-container{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 50px ;
+    margin-top: 40px;
+    width: 75%;
+    margin-left: 12.5%;
+    background-color: #f7e5cc;
+}
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+      .project-card{
+        width: 280px;
+        height: 400px;
+        margin: 25px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        border-radius: 50px ;
+        background-color: rgb(247, 225, 214);
+      }
+      .project-card img {
+        width: 220px;
+        height: 170px;
+        margin-left: 10px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+      }
+      .project-card  div {
+        padding: 10px;
+        font-weight: 700;
+      }

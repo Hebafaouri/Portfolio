@@ -1,0 +1,22 @@
+.exp-card{
+   border: 10px solid rgb(243, 201, 201); 
+   background-color: #f7e5cc;
+   border-radius: 50px ;
+   background-image: url(images/basic1.png);
+ background-size: cover;
+   background-repeat:no-repeat ;
+   
+   margin-top: 40px;
+}
+.Exp-container{
+    display: flex;
+    margin: 30px;
+}
+.company-name{
+width: 20%;
+}
+.compnay-discription{
+    border-left: 10px solid rgb(243, 201, 201); 
+    width: 70%;
+
+}
