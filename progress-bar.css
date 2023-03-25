@@ -9,12 +9,12 @@
 }
 .one-skill{
     display: flex;
+    flex-wrap: wrap;
     margin: 20px;
     border: #f7e5cc 1px solid;
 }
 .skill-name{
   margin-top: 50px;
-    
     width: 100px;
 }
 .circle {

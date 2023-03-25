@@ -15,7 +15,6 @@
     .container-inf{
         width: 100%;
         margin: 0px;
-        /* flex-wrap: wrap; */
     }
     .personal-img{
         width: 100%;
@@ -25,7 +24,6 @@
     #neubar {
         width: 100%;
     }
-
 }
 @media only screen and (max-width: 879px){
     .project-card{
@@ -55,5 +53,13 @@
     .slide{
         width: 100%;
     }
+}
+@media only screen and (max-width:760px) {
+.social-footer-icons  {
+    font-size: 20px;
+}
+.social-footer{
+    width: 100%;
+}
 }
 

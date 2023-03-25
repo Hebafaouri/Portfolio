@@ -2,7 +2,7 @@
     text-align: center;
     overflow: hidden;
     height: 510px;
-    width: 728px;
+    max-width: 728px;
     margin: 0 auto;
     border: 5px solid rgb(243, 201, 201); 
     border-radius: 50px ;
